@@ -1,0 +1,51 @@
+$min-size: 50px;
+$max-size: 70px;
+
+.weather-details {
+  .weather-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+    .details-wrapper {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .humidity,
+      .wind-speed {
+        display: flex;
+        align-items: center;
+
+        img {
+          margin: 15px;
+          width: calc(#{$min-size} + 2vw);
+          height: calc(#{$min-size} + 2vw);
+          max-width: $max-size;
+          max-height: $max-size;
+        }
+
+        .info {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 378px) {
+  .weather-details .details-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.humidity-image,
+.wind-image {
+  width: 50px;
+  height: 50px;
+}
