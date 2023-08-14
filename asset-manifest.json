@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/wazox23/react-weather-app.git/static/css/main.7e35f5f6.css",
+    "main.js": "/wazox23/react-weather-app.git/static/js/main.0d03fc28.js",
+    "static/media/fog.png": "/wazox23/react-weather-app.git/static/media/fog.980d16e014af3976bcdd.png",
+    "static/media/clouds.png": "/wazox23/react-weather-app.git/static/media/clouds.058d1121e95348721a5e.png",
+    "static/media/mist.png": "/wazox23/react-weather-app.git/static/media/mist.bec995ef50f9dab24180.png",
+    "static/media/snow.png": "/wazox23/react-weather-app.git/static/media/snow.c8ed556c8e144314a339.png",
+    "static/media/drizzle.png": "/wazox23/react-weather-app.git/static/media/drizzle.586dab4fa773ec5fbaaf.png",
+    "index.html": "/wazox23/react-weather-app.git/index.html",
+    "main.7e35f5f6.css.map": "/wazox23/react-weather-app.git/static/css/main.7e35f5f6.css.map",
+    "main.0d03fc28.js.map": "/wazox23/react-weather-app.git/static/js/main.0d03fc28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e35f5f6.css",
+    "static/js/main.0d03fc28.js"
+  ]
+}
